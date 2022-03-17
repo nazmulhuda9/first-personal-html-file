@@ -1,0 +1,177 @@
+main {
+background:#FDF0E9;
+}
+
+.banner-bg-color{
+    background: #28293E;
+    
+}
+.banner-first-write{
+    color: #EF6D58;}
+.banner-second-write{
+    font-weight: 800;
+    font-size: 72px;
+    }
+.banner-button{
+    background: #EF6D58;
+border-radius: 6px;
+Width:154px;
+Height: 48px;
+color:white;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+
+/* service section            */
+.service-second-write{
+    font-weight: 800;
+font-size: 56px;
+color: #391400;
+}
+.second-img{
+    position: absolute;
+margin-left: 24px;
+}
+.service-shape{
+    position: absolute;
+    margin-left:27px;
+}
+.service-border{
+    border: 1px solid #F3D1BF
+    ;
+}
+
+/* portfolio section */
+.port-btn{
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+border-radius: 6px;
+padding: 9px;
+width:144px;
+}
+.port-pic-write{
+    border: 1px solid white;
+    width:84px;
+    Height:34px;
+ padding: 3px 17px;
+ margin-left:15px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.port-pic-write2{
+    border: 1px solid white;
+    width:104px;
+    Height:34px;
+ padding: 3px 17px;
+ margin-left:15px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.port-pic-write3{
+    border: 1px solid white;
+    width:112px;
+    Height:34px;
+ padding: 3px 17px;
+ margin-left:15px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.port-pic-details{
+margin-left: 13px;
+}
+.port-position{
+position:absolute;
+margin: -105px 8px;
+
+}
+
+
+/* about section */
+.about-text-color{
+    color: #391400;
+    font-size:19px;
+}
+.about-btn-color{
+    color: #351402;
+}
+
+.about-shape{
+    position:absolute;
+    margin-left:-79px;
+    margin-top: 31px;
+}
+.about-border{
+    border: 1px solid #F3D1BF
+    ;
+}
+
+
+/* get started section */
+.get-started{
+    background-color: #e9d4c9;
+
+}
+.get-started-btn{
+    background-color: #EF6D58;
+width:109px;
+height:35px;
+border: 1px solid #EF6D58;
+border-radius: 3px;
+}
+
+
+.star-shape{
+    margin-left: -96px;
+}
+.star-line{
+
+    margin-bottom: -120px;
+}
+
+.testimonial-column{
+    border: 1px solid #F3D1BF;
+
+}
+.testi-c{
+    border: 1px solid #F3D1BF;
+    height: 500px;
+
+}
+
+.accordin-bg{
+    background: #28293E;
+}
+
+
+.blog-text{
+    color: #391400;
+}
+
+.contact-form{
+border: 1px solid rgb(236, 195, 195);
+background-color:white;
+padding:20px;
+border-radius:10px;
+}
+
+.btn-color{
+background:#EF6D58;
+padding:10px 20px;
+border:1px solid #EF6D58;
+border-radius:10px;
+color: white;
+}
+.shape-set{
+    margin-left: -35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-reverse{
+      display:flex; 
+      flex-direction:column-reverse; 
+    }
+  }
